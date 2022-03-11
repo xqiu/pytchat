@@ -21,6 +21,12 @@ For more detailed information, see [wiki](https://github.com/taizan-hokuto/pytch
 ## Install
 ```python
 pip install pytchat
+
+2022/3/11: xqiu
+As of 2022/3/11: we need to download httpx package to 0.16.1 to make it working properly
+pip uninstall httpx
+pip install httpx==0.16.1
+
 ```
 ## Examples
 
